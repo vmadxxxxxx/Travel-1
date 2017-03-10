@@ -1,0 +1,34 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: Merriweather;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #22a7d7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 32px;
+    text-decoration: none;  /* Is there a way to stretch the list to fill the bar? */
+}
+
+li a:hover {
+  background-color: #1286b0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title> Make your account </title>
+
+	<link href="MakeAccount.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<p> Starting planning your journey today. </p>
+
+		<div class="outer">
+			<form action="#" method="post" class="input">
+
+					<div class="div2">
+
+				First name: <br>
+				<input type="text" name="First name" placeholder="Your first name..."> <br> <br>
+
+				Last name: <br>
+				<input type="text" name="Last name" placeholder="Your last name..."> <br> <br>
+
+				Email: <br>
+				<input type="email" name="Email" placeholder="firstlast@example.com" required> <br> <br>
+
+				Password: <br>
+				<input type="password" name="Password" required> <br> <br>
+
+				Birthday: <br>
+				<input type="date" name="Birthday" max="01/01/2001" min="01/01/1930" required> <br> <br> <!-- Need to write error message for invalid entry -->
+
+				Gender: <br>
+				<select name="gender">
+					<option value="Female"> Female </option>
+					<option value="Male"> Male </option>
+					<option value="Prefer not to say"> Prefer not to say </option>
+				</select> <br> <br>
+
+				<input type="submit" name="Submit" value="Let's GO!" onclick="window.location.href='YourAccount.html'">
+
+					</div>
+
+			</form>
+		</div>
+
+</body>
+
+</html>
