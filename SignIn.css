@@ -8,7 +8,7 @@ body {
 body {
   font-family: Merriweather;
   font-weight: normal;
-  background: #d7f2ff;
+  background: #263238;
 }
 
 .p {
@@ -44,7 +44,7 @@ button:hover {
   width: 400px;
   margin-top: 10px;
   padding-bottom: 40px;
-  box-shadow: 0px 0px 50px #8a8a8a;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
 }
 
 .material-form .container .material-input {
