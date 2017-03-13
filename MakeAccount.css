@@ -72,7 +72,7 @@ button:hover {
   color: #EFEFEF;
 	font-family: Merriweather;
   font-size: 16px;
-  padding: 10px 10px 10px 0;
+  padding: 10px 0px 10px 0;
   position: relative;
   display: block;
   border: none;
@@ -95,7 +95,7 @@ button:hover {
 .material-form .container .material-input input:focus ~ .bar:after,
 .material-form .container .material-input input:valid ~ .bar:before,
 .material-form .container .material-input input:valid ~ .bar:after {
-  width: 51%;
+  width: 50%;
   background:  #9F9F9F;
   border-bottom: 0;
 } /* thickened underline */
@@ -120,11 +120,11 @@ button:hover {
 }
 
 .material-form .container .material-input .bar:before {
-  left: 51%;
+  left: 50%;
 }
 
 .material-form .container .material-input .bar:after {
-  right: 49%;
+  right: 50%;
 }
 
 .material-form .container .material-input .bar + label:after {
