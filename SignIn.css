@@ -1,3 +1,5 @@
+/* Colour scheme: dark navy- #2B3A42 navy- #3F5765 blue- #BDD4DE light blue- #EFEFEF red- #E74C3C yellow- #FFD34E */
+
 html,
 body {
   width: 100%;
@@ -8,7 +10,7 @@ body {
 body {
   font-family: Merriweather;
   font-weight: normal;
-  background: #263238;
+  background: #EFEFEF;
 }
 
 .p {
@@ -39,12 +41,12 @@ button:hover {
 }
 
 .material-form .container {
-  background: #2c3940;
+  background: #2B3A42;
   padding: 20px;
   width: 400px;
   margin-top: 10px;
   padding-bottom: 40px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0px 0px 50px #8a8a8a;
 }
 
 .material-form .container .material-input {
@@ -67,7 +69,7 @@ button:hover {
 }
 
 .material-form .container .material-input input {
-  color: #fff;
+  color: #EFEFEF;
 	font-family: Merriweather;
   font-size: 16px;
   padding: 10px 10px 10px 0;
@@ -75,8 +77,8 @@ button:hover {
   display: block;
   border: none;
   width: 100%;
-  border-bottom: 1px solid #d5d5d5;
-}
+  border-bottom: 1px solid  #9F9F9F;
+} /* font when typing in input and thin underline */
 
 .material-form .container .material-input input:focus {
   outline: none;
@@ -86,17 +88,17 @@ button:hover {
 .material-form .container .material-input input:valid + label {
   top: -10px;
   font-size: 12px;
-  color: #fff;
-}
+  color: #9F9F9F;
+} /* zoomed out titles */
 
 .material-form .container .material-input input:focus ~ .bar:before,
 .material-form .container .material-input input:focus ~ .bar:after,
 .material-form .container .material-input input:valid ~ .bar:before,
 .material-form .container .material-input input:valid ~ .bar:after {
   width: 51%;
-  background: #fff;
+  background:  #9F9F9F;
   border-bottom: 0;
-}
+} /* thickened underline */
 
 .material-form .container .material-input .bar {
   position: relative;
@@ -111,7 +113,7 @@ button:hover {
   width: 0;
   position: absolute;
   bottom: 0.5px;
-  background: #fff;
+  background:  #9F9F9F;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -146,9 +148,11 @@ button:hover {
 }
 
 .material-form .container .material-input .btn.btn-cancel {
-  background: #df405a;
+  background: #E74C3C;
   color: #fff;
 }
+
+/* hover colour doesn't work */
 
 .center {
   text-align: center;
