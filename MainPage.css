@@ -1,3 +1,5 @@
+/* Colour scheme: dark navy- #2B3A42 navy- #3F5765 blue- #BDD4DE light blue- #EFEFEF red- #E74C3C yellow- #FFD34E */
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -7,28 +9,59 @@ html, body {
 
 body {
   font-family: Merriweather;
+	background-color: #EFEFEF;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:  #22a7d7;
+/* Menu underline */
+
+.status-links {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+.status-links a {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-family: Merriweather;
+  font-weight: 500;
+  text-decoration: none;
+  color: #888;
+  padding 20px 30px;
+  margin: 0 20px;
 }
 
-li {
-    float: left;
-}
+.status-links .slider {
+  display: block;
+  height: 2px;
+  width: 5em;
+  background-color: #E74C3C;
+  right: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 10px;
+  transition: .4s ease-in-out;
+} /* slider doesn't disappear when you take cursor off the option */
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 32px;
-    text-decoration: none;  /* Is there a way to stretch the list to fill the bar? */
-}
+/* Menu underline end */
 
-li a:hover {
-  background-color: #1286b0;
+.map {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EFEFEF;
+  overflow: hidden;
+}
+svg {
+  width: 90vw;
+  height: 90vh;
+}
+path {
+  fill: #3F5765;
+  cursor: pointer;
+}
+path:hover {
+  fill: #FFD34E;
 }
