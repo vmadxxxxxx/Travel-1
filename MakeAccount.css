@@ -147,15 +147,18 @@ button:hover {
   text-transform: uppercase;
 }
 
+.material-form .container .material-input .btn:hover {
+  background-color: #cccccc;
+}
+
 .material-form .container .material-input .btn.btn-cancel {
   background: #E74C3C;
   color: #fff;
 }
 
-/* btn-cancel:hover {
-  background-color: #cc4234;
+.material-form .container .material-input .btn.btn-cancel:hover {
+  background-color: #c74539;
 }
-doesnt work */
 
 .center {
   text-align: center;
